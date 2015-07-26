@@ -1,0 +1,8 @@
+body {background-color:#F9F3E3; }
+@media screen and (max-width: 700px) {
+	container {width:auto; }
+}
+@media screen and (min-width: 700px) {
+	container {max-width:1000px; }
+}
+.s_txt_div{margin:20px;}
