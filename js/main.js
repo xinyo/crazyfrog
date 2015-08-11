@@ -1,5 +1,22 @@
 $(document).ready(methodToFixLayout);
 $(window).on("resize", methodToFixLayout);
+$(window).on("scroll", doanimations);
+
+$('.carousel').carousel({
+  interval: 4000
+})
+
+function doanimations(){
+	var offset =$(window).scrollTop();
+	if (offset == 0){
+		//alert($("div").scrollTop() + " px");
+		$(".navbar").addClass('animated');
+	}
+	else {
+		$(".navbar").removeClass('animated').css("background","rgba(70,70,70,0.6)");
+	}
+}
+
 function methodToFixLayout( e ) {
 	var winHeight = $(window).height();
 	var winWidth = $(window).width();
