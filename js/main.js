@@ -3,7 +3,7 @@ $(window).on("resize", methodToFixLayout);
 $(window).on("scroll", doanimations);
 
 $('.carousel').carousel({
-  interval: 4000
+  interval: 6000
 })
 
 function doanimations(){
@@ -13,7 +13,7 @@ function doanimations(){
 		$(".navbar").addClass('animated');
 	}
 	else {
-		$(".navbar").removeClass('animated').css("background","rgba(70,70,70,0.6)");
+		$(".navbar").removeClass('animated').css("background","rgba(70,70,70,0.8)");
 	}
 }
 

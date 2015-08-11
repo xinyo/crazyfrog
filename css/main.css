@@ -121,10 +121,37 @@ ul {
 
 	position: absolute;
 	top: 20%;
+	left: 10%;
 	text-align: center;
-	width: 100%;
+	width: 80%;
 }
 .slogan-wrapper h1{
 	text-transform: uppercase;
 	font-size: 3.5em;
+}
+.searchBlurbContainter{
+	position: relative;
+	margin: 0 auto 20px;
+	text-align: center;
+	max-width: 490px;
+	height: 52px;
+	background: url(../img/searchbar.png) 0 0 no-repeat;
+	margin-top: 2%;
+}
+#searchInputReplacement #searchInputSplash {
+	font-size: 1.5em;
+	line-height: 52px;
+	padding: 0;
+	height: 52px;
+	border: none;
+	margin-left: 52px;
+	float: left;
+	width: 310px;
+
+}
+#searchInputSplash {
+	color: black;
+}
+input, a, a:focus {
+	outline: 0;
 }
